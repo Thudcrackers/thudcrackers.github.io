@@ -1,4 +1,4 @@
-html {
+body {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -6,15 +6,19 @@ html {
     font-size: 144px;
     text-align: center;
     margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #subHeader {
     text-align: center;
     font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #buttons {
     text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .homeButton {
@@ -52,6 +56,7 @@ html {
     text-decoration: none;
 }
 
-#wrapper {
-    margin: auto;
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
