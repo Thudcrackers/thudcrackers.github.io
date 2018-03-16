@@ -1,4 +1,4 @@
-#html {
+html {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .homeButton {
-    /*background-color: white;*/
+    text-decoration: none;
     border: 2px solid cornflowerblue;
     border-color: cornflowerblue;
     color: cornflowerblue;
@@ -50,4 +50,8 @@
 
 .homeButton:focus {
     text-decoration: none;
+}
+
+#wrapper {
+    margin: auto;
 }
