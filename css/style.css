@@ -1,3 +1,7 @@
+#html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #header {
     font-size: 144px;
     text-align: center;
@@ -7,4 +11,43 @@
 #subHeader {
     text-align: center;
     font-size: 48px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.homeButton {
+    /*background-color: white;*/
+    border: 2px solid cornflowerblue;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+    display: inline-block;
+    font-size: 18px;
+    margin: 36px 12px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.homeButton:hover {
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+}
+
+.homeButton:active {
+    text-decoration: none;
+    color: white;
+}
+
+.homeButton:visited {
+    text-decoration: none;
+}
+
+.homeButton:focus {
+    text-decoration: none;
 }
