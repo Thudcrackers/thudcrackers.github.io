@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
 
         <title>Jack Morton - Programmer/Enthusiast Charlotte, NC</title>
     </head>
@@ -13,16 +14,17 @@
     </div>
     
     <div id="buttons">
-        <a href="/Home/Pages" class="homeButton">Pages</a>
+        <a href="{{site.url/pages.html}}" class="homeButton">Pages</a>
         <a href="https://www.github.com/thudcrackers/" target="_blank" class="homeButton">Github</a>
         <a href="https://www.linkedin.com/in/jack-morton-9a308ab3/" target="_blank" class="homeButton">LinkedIn</a>
-        <a href="/Home/Contact" class="homeButton">Contact</a>
-        <a href="/Home/Index" class="homeButton">About Me</a>
+        <a href="{{site.url/contact.html}}" class="homeButton">Contact</a>
+        <a href="{{site.url}}" class="homeButton">About Me</a>
     </div>
 
     <body>
         {{content}}
     </body>
+    <hr />
 
-    <footer style="text-align: center">&copy; 2018 Jack Morton</footer>
+    <footer style="text-align: center">&copy; 2018 - Jack Morton</footer>
 </html>
