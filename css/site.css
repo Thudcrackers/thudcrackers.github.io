@@ -1,0 +1,25 @@
+body {
+    background-color: #00ff12;
+    font-family: sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.blue {
+    color: #00ff12;
+    background-color: #00fff6;
+    font-size: 140px;
+}
+
+.yellow {
+    color: #fffc00;
+    font-size: 120px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
