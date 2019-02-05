@@ -1,0 +1,30 @@
+#header {
+    font-size: 144px;
+    margin-top: 10%;
+}
+
+#subHeader {
+    font-size: 48px;
+}
+
+.buttons {
+    text-align: center;
+    color: $primary;
+}
+
+.button {
+    margin: 16px 12px;
+    border-width: 2px;
+}
+
+.container {
+    max-width: 970px;
+}
+
+.is-primary {
+    color: #8c67ef;
+    border-color: #8c67ef;
+    &:hover {
+        color: #8c67ef
+    }
+}
