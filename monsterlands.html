@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MonsterLands</title>
+  </head>
+
+  <body>
+      <div id="wrapper">
+          <div id="page-wrapper">
+          <header id="page-header"></header>
+            <nav id="nav">
+                <ul>
+                    <li><%= link_to 'ARCHIVE', {:controller => 'pages', :action => 'archive'}%> </li>
+                    <li><%= link_to 'CAST', {:controller => 'pages', :action => 'cast'}%> </li>
+                    <li><%= link_to 'CHARACTER STUDIES', {:controller => 'pages', :action => 'character_studies'}%> </li>
+                    <li><%= link_to 'ABOUT/CONTACT', {:controller => 'pages', :action => 'about'}%> </li>
+                    <li><%= link_to 'FAN ART', {:controller => 'pages', :action => 'fan_art'}%> </li>
+                </ul>
+            </nav>
+          <img src="https://i2.wp.com/www.monster-lands.com/wp-content/uploads/2018/02/monsterlands.147.png?fit=792%2C1224">
+            
+          </div>
+        
+      </div>
+      <footer id="page-footer">
+        <footer id="footer-contents">
+            Copyright &copy; James Nelson 2018
+        </footer>
+      </footer>
+  </body>
+</html>
